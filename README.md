@@ -2,6 +2,13 @@
 
 A production-ready, real-time bed and blood availability system for government hospitals, built for emergency response and resource management.
 
+## 🚀 Live Demo
+
+**[View Live Application →](https://meditrack-lac.vercel.app/)**
+
+- **Frontend**: https://meditrack-lac.vercel.app/
+- **Backend API**: https://meditrack-backend-daxo.onrender.com
+
 ## 🎯 Features
 
 ### Public Dashboard
@@ -252,21 +259,37 @@ Clients join city-based rooms for location-specific updates.
 
 ## 🚢 Deployment
 
-### Backend (Railway)
+### Backend (Render)
 
-1. Create Railway account
-2. New Project → Deploy from GitHub
-3. Add environment variables
-4. Deploy
+1. Create Render account at [render.com](https://render.com)
+2. New Web Service → Connect GitHub repository
+3. Configure:
+   - **Name**: meditrack-backend
+   - **Root Directory**: `server`
+   - **Build Command**: `npm install`
+   - **Start Command**: `npm start`
+   - **Environment**: Node
+4. Add environment variables (same as `.env`)
+5. Deploy
+
+**Live Backend**: https://meditrack-backend-daxo.onrender.com
 
 ### Frontend (Vercel)
 
-1. Create Vercel account
+1. Create Vercel account at [vercel.com](https://vercel.com)
 2. Import GitHub repository
-3. Framework: Vite
-4. Root Directory: `client`
-5. Add environment variables
+3. Configure:
+   - **Framework Preset**: Vite
+   - **Root Directory**: `client`
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+4. Add environment variables:
+   - `VITE_SUPABASE_URL`
+   - `VITE_SUPABASE_ANON_KEY`
+   - `VITE_API_URL` (set to your Render backend URL)
 6. Deploy
+
+**Live Frontend**: https://meditrack-lac.vercel.app/
 
 ## 🧪 Testing
 
