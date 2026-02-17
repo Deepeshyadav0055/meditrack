@@ -4,9 +4,9 @@ A production-ready, real-time bed and blood availability system for government h
 
 ## 🚀 Live Demo
 
-**[View Live Application →](https://meditrack-lac.vercel.app/)**
+**[View Live Application →](https://meditrack-deepesh-m1oz95g6l-deepeshyadav2504006-4769s-projects.vercel.app/)**
 
-- **Frontend**: https://meditrack-lac.vercel.app/
+- **Frontend**: https://meditrack-deepesh-m1oz95g6l-deepeshyadav2504006-4769s-projects.vercel.app/
 - **Backend API**: https://meditrack-backend-daxo.onrender.com
 
 ## 🎯 Features
@@ -289,7 +289,7 @@ Clients join city-based rooms for location-specific updates.
    - `VITE_API_URL` (set to your Render backend URL)
 6. Deploy
 
-**Live Frontend**: https://meditrack-lac.vercel.app/
+**Live Frontend**: https://meditrack-deepesh-m1oz95g6l-deepeshyadav2504006-4769s-projects.vercel.app/
 
 ## 🧪 Testing
 
